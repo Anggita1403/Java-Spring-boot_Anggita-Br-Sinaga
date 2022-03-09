@@ -1,0 +1,17 @@
+Summary 5
+Resume Materi "Time Complexity"
+TIME COMPLEXITY
+Time Complexity adalah berapa lama operasi-operasi dapat dilakukan. Dapat berupa operasi aritmatika seperti perkalian, penjumlahan dan bisa juga menggunakan operasi lain seperti pemberian nilai, perbandingan dan lainnya
+untuk mengambil time comlexity kita cukup mengambil opersi yang dominan dari suatu kegiatan.
+Berikut perbandingan  dari perbedaan time complexity :
+- Constant time - O(1) (tidak terdapat proses yang berulang didalamnya/konstan)
+- Linear time -O(n) (Perulangannya sebanyak nilai n, nilai awal sampai nilai n)
+  Linear time -O(n+m) (nilai n+m akan tetap menjadi n dengan syarat nilai n menjadi n+m)
+- Logarithmic time -O(log n) (terjadi perulangan saat nilai n>1, setiap kali perulangan nilai n akan dibagi 2, saat n menjadi kurang dari satu maka perulangan dihentikan)
+catatan : tipe data yang dipakai adalah data integrer yaitu hanya mampu menampilkan bilangan bulat.
+- Quadratik time - O(n^2) (terdapat perulangan di dalam perulangan)
+
+time limit
+- jika n <=1.000.000 dapat menggunakan time complexity O(n) or O(n log n)
+- Jika n <=10.000, dapat menggunakan time Complexity O(n^2)
+- jika n <=500, dapat menggunakan time complexity O(n^3)
