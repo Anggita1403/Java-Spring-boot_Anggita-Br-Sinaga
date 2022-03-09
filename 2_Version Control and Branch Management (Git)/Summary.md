@@ -2,6 +2,7 @@
 Section 2
 
 Rangkuman
+
 Versoning adalah mengatur versi atau perubahan dari source code program untuk mengatur project atau file
 ke versi yang lebih baik.
 Kita membutuhkan Version control System untuk mengetahui setiap revisi yang kita lakukan.
