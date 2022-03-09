@@ -1,6 +1,8 @@
 
 Section 2
+
 Rangkuman
+
 Versoning adalah mengatur versi atau perubahan dari source code program untuk mengatur project atau file
 ke versi yang lebih baik.
 Kita membutuhkan Version control System untuk mengetahui setiap revisi yang kita lakukan.
@@ -13,6 +15,9 @@ secara bersama-sama.
 Inspecting Repository and Undoing (Git log, Checkout, Fleset)
 
 Syncing (Git Remote, Fetch, Push, Pull)
+
 Branches
+
 Pull Request
+
 Workflow Collaboration
