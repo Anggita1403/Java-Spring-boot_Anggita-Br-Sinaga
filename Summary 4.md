@@ -52,5 +52,3 @@ If-then-else, if-then, tenary, switch
 
 LOOPING (perulangan)
 For, Whilw, Do-While, For Each, Break Continue
-
-
