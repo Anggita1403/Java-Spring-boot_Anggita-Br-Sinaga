@@ -15,6 +15,9 @@ secara bersama-sama.
 Inspecting Repository and Undoing (Git log, Checkout, Fleset)
 
 Syncing (Git Remote, Fetch, Push, Pull)
+
 Branches
+
 Pull Request
+
 Workflow Collaboration
