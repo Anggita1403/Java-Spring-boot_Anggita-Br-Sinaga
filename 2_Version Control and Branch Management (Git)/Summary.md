@@ -1,17 +1,22 @@
-Section 2
-Rangkuman
-Versoning adalah mengatur versi atau perubahan dari source code program untuk mengatur project atau file
-ke versi yang lebih baik.
-Kita membutuhkan Version control System untuk mengetahui setiap revisi yang kita lakukan.
+Summary.md
 
-Git adalah salah satu VCS populer yang digunakan oleh para developer untuk mengembangkan software 
-secara bersama-sama.
-- Git Instal
-- Setting Up (Git init, clone, config)
-- Saving changes ( Git status, add, commit, Diff, stash, Ignore)
-Inspecting Repository and Undoing (Git log, Checkout, Fleset)
+1. Algoritma adalah sebuah prosedur komputasi yang didefinisikan dengan baik yang mengambil beberapa nilai sebagi input dan menghasilkan beberapa nilai sebagai output.
+Input -> Process -> output
+contoh algoritma : 
+a. Check prime number (cek bilangan prima)
+b. Sorting (mengurutkan data)
+c. searching (pencarian data)
 
-Syncing (Git Remote, Fetch, Push, Pull)
-Branches
-Pull Request
-Workflow Collaboration
+2. Karakteristik Algoritma
+a. Algoritma memiliki batas awal dan akhir ()
+b. Instruksi terdefinisikan dengan baik (Jelas Tahapannya)
+c. Efektif dan efisien
+
+3. Konsep dasar Algoritma
+a. sequential(memiliki urutan /berurut)
+b. Branching (Percabangan)
+c. Looping (Perulangan)
+
+Terdapat beberapa hal yang dilakukan untuk menjalankan Algoritma yaitu dengan:
+a. Pseudocode adalah deskripsi sederhana yang bisa digunakan untuk menuangkan sebuah ide algoritma.
+b. Flowchart adalah suatu bagan dengan simbol tertentu yang menggambarkan urutan dan hubungan antar proses secara mendetail.
