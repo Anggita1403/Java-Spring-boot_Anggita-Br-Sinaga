@@ -1,4 +1,5 @@
-public static void main (String[] args){
+public class problem1 {
+    public static void main (String[] args){
 
         int vokal = 0;
         int konsonan = 0;
@@ -25,4 +26,4 @@ public static void main (String[] args){
         System.out.println("Total Karakter :" + (vokal+konsonan));
 
     }
-
+}
