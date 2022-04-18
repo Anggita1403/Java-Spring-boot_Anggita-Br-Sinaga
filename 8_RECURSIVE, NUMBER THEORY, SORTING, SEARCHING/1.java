@@ -6,9 +6,9 @@ public class Menampilkan_bilangan_prima {
         int bil, awal, akhir;
         
          System.out.println("PROGRAM JAVA MENAMPILKAN DERET BILANGAN PRIMA");
-         System.out.print("Mulai dari : 2 ");
+         System.out.print("Mulai dari : ");
          awal=input.nextInt();
-         System.out.print("Sampai : 29 ");
+         System.out.print("Sampai : ");
          akhir=input.nextInt();
          System.out.println("----------------------------------------------");
         for (int i=awal; i<=akhir; i++){
