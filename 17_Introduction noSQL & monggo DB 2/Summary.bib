@@ -1,0 +1,46 @@
+Section 17
+Introduction No SQL & monggo DB 2
+Basic operation Mongo DB
+hal-hal yang perlu dilakukan
+- Instalasi
+
+- Collection ( untuk mengelola data pada mongo DB )
+
+cara membuat DB menggunakan use test.
+cara membuat collection (optional)
+db. createCollection ('nama')
+- insert(memasukkan data ke dalam collection)
+1. Single insert
+2. Bulk insert (multiple insert)
+
+- find-1 (membaca data yang terdapat pada data base)
+db.nama.(find) atau db.nama.(find).pretty agar lebih rapi.
+
+- Update ( untuk mengubah data yang sudah tersimpan)
+1. Update dokumen
+db.nama.update({firstName: "Ahmad"}, {firstName: "Ahmad", lastName:"Y Mafaza", gender: "Male"})
+2. $set (Mengubah atau menambahkan file)
+db.nama.update({firstName: "Ahmad"}, { $set: { lastName: "Yusqie Mafaza", age:17}})
+3. $inc 
+db.nama.update({firstName: "Ahmad"}, ( $inc: { age: 1 }})
+4. $unset (kebalikan $set yaitu menghapus file)
+db.nama.update({firstName: "Ahmad"}, { $unset: { age: ''} })
+5. $rename (digunakan untuk mengubah nama file)
+db.nama.update({firstName: "Ahmad"}, ( $rename: { gender: 'sex' } })
+6. Upsert(update or insert) menambahkan data baru
+
+- remove (menghapus data)
+1. hapus dokumen 
+db.nama.remove({firtsName: "Abdullah"})
+2. hapus 1 dokumen
+db.nama.remove({firtsName: "Abdullah"}, {justOne: true)};
+
+- Find-2
+1. Find dengan parameter
+2. find dokumen dalam dokumen
+3. tampilkan field spesifik
+4. sorting (mengurutkan data find)
+5. limit (membatasi hasil find)
+6. count (menghitung hasil yang didaptkan dari data find)
+
+
