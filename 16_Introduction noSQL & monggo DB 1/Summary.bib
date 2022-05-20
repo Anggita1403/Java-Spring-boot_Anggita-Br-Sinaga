@@ -1,0 +1,58 @@
+Section 16
+Introduction No SQL & monggo DB 1
+
+1. Sejarah
+secarah atau perkembangan data base
+- Data base wars
+- object data base challange
+- semi structure
+
+2. kelebihan data base relational 
+- dirancang untuk segala keperluan SQL.
+- memiliki standart yang jelas.
+- memiliki banyak tools (administrasi, reporting, frame work).
+
+3. Perkembangan kebutuhan data base manejemen system
+- Big data
+- distributed app dan 
+- social media
+hingga lahirlah sistem penyimpanan data NO SQL.
+NO SQL sering disebut Not Only SQL yaitu tidak memiliki relasi atau kebalikan dari relational data base.
+
+DBMS
+DBMS yang menyediakan mekanisme yang lebih fleksibel dibandingkan dengan model RDBMS(sifat ACID).
+
+hal yan perlu dihindari DBMS
+- effort pada sifat transaksi ACID.
+- kompleksitas SQL.
+- desain schema didepan.
+- transaction (ditangani oleh aplikasi).
+
+kelebihan DBMS
+- schema less
+- fast development
+- support big size file
+- support cluster
+
+Kaidah CAP
+- consistency
+- availability
+- partition
+
+schema less
+- traditional RDBMS.
+- tidak bisa menambah data yang tidak sesuai skema.
+- perlu menambahkan dat null pada item yang tidak memiliki data.
+- memiliki tipe data strick.
+- tidak dapat menambah beberapa item data pada sebuah field.
+
+NO SQL DBMS
+- tidak memiliki skema ketika menambahkan data.
+- aplikasi menangani proses validasi tipe data.
+- mendukung proses aggregasi dokumen pada item.
+
+Tipe/kategori data base NO SQL
+- key/value (Software redis)
+- column - family (software cassandra)
+- graph (software Neo4j)
+- document - based (software mongo DB)
