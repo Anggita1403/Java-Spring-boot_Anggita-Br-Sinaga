@@ -1,0 +1,51 @@
+Section 18 System Design
+-Diagram Design
+Diagram adalah sebuah simbol yang menggambarkan informasi yang inging kita sampaikan dapat berupa design system atau alur system
+contoh software untuk desain
+Flowchart, use case, erd dan HLA
+
+- Distruted System
+karakteristik Sistem distribusi
+a. Scalabilty
+b. Reliability
+c. Availability
+d. efficiency
+e. Servisbility Atau managebility
+Scalability ada 2 yaitu
+1. Horizontal Scaling
+2. Vertical scaling
+
+- Job/Work Queue
+- Berkaitan dengan load Balancing adalah pembagian tugas/sistem kerja server user dan Front N.
+- Monolithic dimana satu sistem dengan banyak servis dimasukkan ke dalam satu server.
+- Microservices adalah servis yang ada dalam sebua sistem dibagi bagi. dengan membuat repo sendiri.
+
+SqL dan Non Sql
+Data Base ada 2 yaitu Sql dan Non Sql
+- Sql adalah sebuah relasional date base yang mempunyai entity yang saling berhubungan dan terstruktur diawal.
+- No Sql adalah kebalikan sql dimana data base nya tidak memiliki relasi atau hubungan dan juga datanya tidak terstruktur.
+
+SQL
+Manfaat Sql
+a. Dirancang untuk segala kebutuhan
+b. Memiliki standar yang jelas
+c. Memiliki banyak tool(administrasi, reporting< framework)
+contoh : mySQl, Posgrate, Sql Line dll
+Prinsip MySQL
+- Atomicity
+- Consistency
+- Isolation
+- Durability
+
+Non SQl(Not ony SQL)
+DBMS yang menyediakan mekanisme yang lebih fleksibel dibandingkan dengan model SQL
+kelebihan:
+schemanya sedikit, fast development dan lain sebagainya.
+dapat digunakan saat membutuhkan schema fleksibel, ACID tidak diperlukan, dta loging (json), data sementara(cache)
+
+tidak bisa digunakan saat: data finansial, data transaksi bisnis, ACID-complliant.
+
+Caching
+ Caching Adalah penyimpanan data semantara. Biasanya disimpan di RAM.
+ Data base untuk data permanen.
+ Data base replication 
